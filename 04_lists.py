@@ -339,7 +339,7 @@ max_average = abs(max(ages) - average_age)
 print(min_average)
 print(max_average)
 # Find the middle country(ies) in the countries list
-from countries import countries as countries_list
+from data.countries import countries as countries_list
 
 # Divide the countries list into two equal lists if it is even if not one more country for the first half.
 middle_countries_list = len(countries_list) // 2
